@@ -2,6 +2,5 @@
 <buildpath>
 	<buildpathentry kind="src" path=""/>
 	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
-	<buildpathentry external="true" kind="lib" path="D:/Entwicklung Web/bootstrap-3.3.7-dist"/>
 	<buildpathentry external="true" kind="lib" path="D:/Entwicklung Web/wordpress-4.8-de_DE/wordpress"/>
 </buildpath>

@@ -1,4 +1,54 @@
-#ttsOptions{
-	height: 900px;
-	background-color: #0CF2c3
+.ttsLayoutbuilder-toggleElement,.ttsLayoutbuilder-boxclose a{
+    color:#FFF !important;
+    background-color: #005082 !important;
+    border:1px solid #006699 !important;
+    border-radius: 4px;
+    height:30px;
+    padding: 0 10px;
+    line-height:30px;    
+    text-align: center;
+    display:inline-block;
+    margin-bottom: 5px;
+    width:100%;
+}
+.ttsLayoutbuilder-editwrapper .ttsLpart{
+    min-height: 50px;
+    border: 1px solid #dadada;    
+    margin: 10px 0;
+}
+.active{
+    border:1px solid #00b9eb !important;
+}
+.ttsLpart.hovered{
+    background-color: lightskyblue
+
+}
+.ttsLayoutbuilder-box{
+    max-width: 300px;
+    width:100%;
+    margin:0 auto;
+    position: fixed;
+    top:200px;
+    background-color: #dadada;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    z-index:100;
+    box-shadow: 0 0 10px #00b9eb;
+}
+.ttsLayoutbuilder-box .container-fluid{
+    border: -1px solid #00b9eb;
+}
+.ttsLayoutbuilder-box .row{
+    margin: 5px 0;
+}
+.ttsLayoutbuilder-box .row:hover{
+    background-color: #fff;
+}
+.coldemo,.contdemo,.rowdemo{
+    background-color: #bce8f1;
+    border-radius: 2px;
+    min-height: 30px;
+    max-height: 30px;
+    line-height: 30px;
+    cursor: pointer;
 }
